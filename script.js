@@ -6,6 +6,6 @@ function changeTableStyle() {
     let rows = table.getElementsByTagName("tr");
     if (rows.length > 0) {
         rows[1].style.backgroundColor = "yellow"; 
-        rows[rows.length - 1].style.backgroundColor = "yellow"; 
+        rows[3].style.backgroundColor = "yellow"; 
     }
 }
